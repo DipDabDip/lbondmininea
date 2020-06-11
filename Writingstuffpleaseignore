@@ -1,1 +1,37 @@
-hello
+analyis
+  problem identification
+    the problem is that rubiks cubes are difficult to solve, however, they can be solved through fairly simple algorithms, so I want 
+    to attempt a rubiks cube solver
+  stakeholders
+    this project has applications to anyone who wants to solve a rubiks cube but does not actually want to learn how, we've all been there
+    it also stands to definitively prove whether a given orientation of a rubiks cube can be "solved"
+    for a third party, we will see if we can get my mum to solve a rubiks guide using the guidance of the program
+  is it computational
+    yes! yes it is, quite easily! (i hope) rubiks cubes are solved through fairly simple algorithms
+  
+  questions to ask third party (mum)
+   1.) do you know what a rubiks cube is and have a basic understanding of what the purpose is 
+   2.) can you solve a given rubiks cube with no external assistance
+   3.) if you were given simple instructions with simple graphics do you think you would be able to solve a rubiks cube
+   4.) are you comfortable reading instructions from a computer to solve a problem or complete a task
+  
+ 
+research
+  rubiks cubes look like this (insert image of rubiks cube)
+  they are a cube with the faces each split into 9 squares
+  there are 3 types of pieces on a rubiks cube
+    center piece, lies in the centre of a face, is one colour
+    edge piece, lies on the edge, but not in the corner, of a face, adjacent to two center piece. has two colours
+    corner piece, lies on the corner, adjacent to an edge piece, has three colours.
+  any face can be rotated by 90degrees perpendicular to the opposite face, this allows edge pieces and corner pieces to move out of place
+  a solved rubiks cube is a cube where all corner pieces and edge pieces match the center piece on all faces.
+  
+i dont even know what this section is?
+  aaaaaaaaaaaaaaaaaaaaaaaaah
+  a rubiks cube can be represented as 6 2d arrays of size 3x3, each entry need only contain the colour of each individual squares
+  there is a finite amount of moves that can be done on a rubiks cube, these are:
+    f - rotation of the front face clockwise through 90degrees
+    r - rotation of the left face (relative to the orientation of the cube) through 90 degrees clockwise
+    l - rotation of the right face (relative to the orientation of the cube) though 90 degrees clockwise (note that this makes it rotate
+    opposite to the left face
+    u - 
